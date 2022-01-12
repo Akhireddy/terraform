@@ -1,2 +1,2 @@
-input1 = 300
-input2 = 400
+input3 = 300
+input4  = 400
