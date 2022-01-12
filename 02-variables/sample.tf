@@ -5,12 +5,12 @@ output "demo" {
   value = var.demo
 }
 
-variable "demo" {
+variable "demoa" {
   type    = string
   default = "Hello World"
 }
 
-output "demo" {
+output "demoa" {
   value = var.demo
 }
 
