@@ -47,3 +47,24 @@ output "demo1" {
 output "demo2" {
   value = var.demo4["course"]
 }
+
+#### Variable from TFVARS
+variable "input1" {
+  type = number
+}
+variable "input2" {}
+
+output "input1" {
+  value = var.input1
+}
+
+output "input2" {
+  value = var.input2
+}
+
+
+## Vars from Shell env
+variable "input_shell" {}
+output "input_shell" {
+  value = var.input_shell
+}
